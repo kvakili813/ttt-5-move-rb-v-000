@@ -9,3 +9,7 @@ input = gets.strip
 index = input_to_index(input)
 move(board, index, char = "X")
 display_board(board)
+
+puts "whats you name"
+name = gets.strip
+puts "hi #{name}"
