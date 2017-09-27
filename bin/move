@@ -8,3 +8,4 @@ puts "Where would you like to go?"
 position = gets.strip
 space = input_to_index(position)
 move(board, space)
+display_board(board)
